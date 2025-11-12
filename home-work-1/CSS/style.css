@@ -1,70 +1,65 @@
-
 .packages-title {
-   text-align: center;
-   margin-bottom: 96px; 
-   font-size: 48px;
-   font-family: Arial, Helvetica, sans-serif;
-    color: #242121;
+  text-align: center;
+  margin-bottom: 96px;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #242121;
 }
 
 .packages {
-    background-color:#F8F8F8;
-    width: 1920;
-    height: 1057;
-    padding: 128px;
+  background-color: #f8f8f8;
+  width: 1920;
+  height: 1057;
+  padding: 128px;
 }
 
 .all_packages {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 
 .card {
-    width: 360px;
-    height: 577px;
-    background-color: #FFFFFF;
-    color: #242121;
-    padding-top: 45px;
+  width: 360px;
+  height: 577px;
+  background-color: #fff;
+  color: #242121;
+  padding-top: 45px;
 }
-.card h2 {
-    text-align: center;
-    font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
+
+.card-title {
+  text-align: center;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card ul {
-    list-style: none;
-    padding: 43px;
-    margin-top: 58px;
-    text-align: left;
+  list-style: none;
+  padding: 43px;
+  margin-top: 58px;
+  text-align: left;
 }
 
 .card li {
-    font-size: 14px; 
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
 }
 
 .price {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
 }
 
-.price-content {
-    display: flex;
-    align-items: baseline;
-    gap: 5px;
-}
 .amount {
-    font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .currency {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
 }
