@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/Fraunces_72pt_Soft-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter_24pt-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.blog {
+  background-color: #f7f9fa;
+  width: 1440px;
+  height: 747;
+  padding: 80px 105px;
+}
+
+.blog__header {
+  display: flex;
+  max-width: 1130px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.blog__title {
+  color: #1f1f1f;
+  font: 400 42px/50px "Fraunces", serif;
+}
+
+a {
+  font: 400 17px/27px "Inter", sans-serif;
+  text-decoration: none;
+  padding: 8px 32px;
+  align-items: center;
+  color: #0070a0;
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 355px;
+  height: 487px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.card__tag__wrapper {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.card__tag {
+  background-color: #e6f7ff;
+  padding: 3px 12px;
+  color: #2c90c9;
+  font: 400 12px/16px "Inter", sans-serif;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.card__title {
+  color: #1f1f1f;
+  font: 400 25px/31px "Fraunces", serif;
+  margin-bottom: 11px;
+}
+
+.card__description {
+  color: #1f1f1f;
+  font: 400 14px/19px "Inter", sans-serif;
+  margin-bottom: 16px;
+}
+
+.card__date {
+  color: #1f1f1f;
+  font: 400 12px/19px "Inter", sans-serif;
+}
