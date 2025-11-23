@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/Fraunces_72pt_Soft-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter_24pt-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+
+a {
+  font: 400 17px/27px "Inter", sans-serif;
+  text-decoration: none;
+  padding: 8px 56px;
+  align-items: center;
+}
+
+.preview {
+  background: #f8f8f8;
+  padding: 199px 238px 160px 242px;
+}
+
+.preview__wrap {
+  display: flex;
+  align-items: center;
+}
+
+.preview__img {
+  width: 576px;
+}
+
+.preview-content {
+  max-width: 670px;
+  margin-right: 194px;
+}
+
+.preview-content__title {
+  font: 400 58px/63.8px "Fraunces", serif;
+}
+
+.preview-content__text {
+  font: 400 20px/30px "Inter", sans-serif;
+  margin-top: 24px;
+  max-width: 484px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 32px;
+}
+
+.btn--primary {
+  background: #0070a0;
+  color: #fff;
+}
+
+.btn--secondary {
+  background: none;
+  color: #0070a0;
+  display: flex;
+  gap: 17px;
+}
+
+.btn__text {
+  color: inherit;
+  white-space: nowrap;
+}
+
+.preview-content__link--secondary__icon {
+  width: 16px;
+  height: 16px;
+}
